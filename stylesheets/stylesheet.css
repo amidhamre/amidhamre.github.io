@@ -15,6 +15,19 @@ a {
   a:hover {
     text-decoration: underline; }
 
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  display: inline;
+  float: center; 
+}
+
+li a {
+  color: white;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -243,3 +256,8 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.site-footer {
+  text-align: center;
+}
+
